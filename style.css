@@ -1,0 +1,166 @@
+/* nav items */
+
+.size-logo {
+    font-size: 1em;   
+}
+
+.px-24 {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.size-20 {
+    font-size: 1.25rem;
+}
+
+/* Jumbotron items */
+
+.bg-secondary {
+    background-color: lightgrey !important;
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .padding-banner {
+        width: 60%;
+        padding: 2rem 1.5rem;
+    }
+    
+    .banner-text-box {
+        padding-left: 1.5rem;
+        padding-right: 8rem;
+    }
+}
+
+.banner-text-size {
+    margin-top: 32px;
+    font-size: 5rem;
+}
+
+
+
+.button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 32px;
+    background-color: dimgray !important;
+    color: white;
+    font-size: 2rem;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+/* left article section items */
+
+.info-title-size {
+    font-size: 4rem;
+}
+
+.info-lead-size {
+    font-size: 	1.875rem;
+}
+
+aside {
+    font-size: 	1.625rem;
+}
+
+.info-border {
+    border-right: solid lightgray 2px;
+}
+
+/* right article section items */
+
+.p-16 {
+    padding: 16px;
+}
+
+.pt-16 {
+    padding-top: 16px;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .info-border-bot {
+        border-bottom: solid lightgray 2px;
+    }
+
+    .width-info {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bg-secondary-small {
+        background-color: lightgrey !important;
+    }
+}
+
+/* cards */
+
+.card-title {
+    font-size: 1.875rem !important;
+    font-weight: bold;
+
+}
+
+.card-text {
+    font-size: 1.875rem !important;
+}
+
+.card-padding {
+    padding: 0px 72px 72px 32px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+/* video section */
+
+.video-pm {
+    width: 60%;
+    padding: 0 24px 24px 24px;
+}
+
+/* video right section */
+
+.pnt {
+    padding: 0px 16px 16px 16px;
+}
+
+/* footer */
+
+.mx-24 {
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+
+/* Reponsive */
+
+@media only screen and (min-width: 992px) {
+    .small {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .smallpic {
+        width: 100%;
+    }
+    .smallpadding {
+        padding-left: 32px;
+    }
+}
+
