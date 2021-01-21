@@ -103,6 +103,7 @@ aside {
     .bg-secondary-small {
         background-color: lightgrey !important;
     }
+
 }
 
 /* cards */
@@ -125,11 +126,32 @@ aside {
     padding: 32px;
 }
 
+/* responsive cards */
+
+.smallcard {
+    padding: 16px 0px 24px 16px;
+    margin-bottom: 8px;
+    font-size: 3.75rem;
+}
+
+.smallcardlast {
+    margin-bottom: 32px;
+}
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 /* video section */
 
-.video-pm {
-    width: 60%;
-    padding: 0 24px 24px 24px;
+@media only screen and (min-width: 992px) {
+
+    .video-pm {
+        width: 60%;
+        padding: 0 24px 24px 24px;
+    }
+
 }
 
 /* video right section */
@@ -150,17 +172,31 @@ aside {
 /* Reponsive */
 
 @media only screen and (min-width: 992px) {
+
     .small {
         display: none !important;
     }
+
 }
 
 @media only screen and (max-width: 992px) {
+
     .smallpic {
         width: 100%;
     }
-    .smallpadding {
+
+    .smallinfopadding {
         padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .border-small {
+        border: solid 2px lightgrey
+    }
+
+    .video-pm {
+        width: 100%;
+        margin-bottom: 24px;
     }
 }
 
