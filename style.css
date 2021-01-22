@@ -17,6 +17,23 @@
     font-size: 1.25rem;
 }
 
+.pl-12 {
+    padding-left: 12px;
+}
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pr-24 {
+    padding-right: 24px;
+}
+
 /* Jumbotron items */
 
 .bg-secondary {
@@ -26,19 +43,19 @@
 @media only screen and (min-width: 992px) {
     
     .padding-banner {
-        width: 60%;
-        padding: 2rem 1.5rem;
+        padding: 32px 24px;
     }
     
     .banner-text-box {
-        padding-left: 1.5rem;
-        padding-right: 8rem;
+        padding-left: 24px;
+        padding-right: 128px;
     }
 }
 
 .banner-text-size {
     margin-top: 32px;
-    font-size: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 
@@ -49,7 +66,7 @@
     margin-bottom: 32px;
     background-color: dimgray !important;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .mt-24 {
@@ -60,18 +77,23 @@
     margin-top: 32px;
 }
 
+.max-wid {
+    max-width: 100%;
+}
+
 /* left article section items */
 
 .info-title-size {
-    font-size: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .info-lead-size {
-    font-size: 	1.875rem;
+    font-size: 	1.5rem;
 }
 
 aside {
-    font-size: 	1.625rem;
+    font-size: 	1rem;
 }
 
 .info-border {
@@ -111,11 +133,10 @@ aside {
 .card-title {
     font-size: 1.875rem !important;
     font-weight: bold;
-
 }
 
 .card-text {
-    font-size: 1.875rem !important;
+    font-size: 1.5rem !important;
 }
 
 .card-padding {
@@ -131,7 +152,7 @@ aside {
 .smallcard {
     padding: 16px 0px 24px 16px;
     margin-bottom: 8px;
-    font-size: 3.75rem;
+    font-size: 2rem;
 }
 
 .smallcardlast {
@@ -168,6 +189,9 @@ aside {
     margin-top: 16px;
 }
 
+.footer-size {
+    font-size: 1rem;
+}
 
 /* Reponsive */
 
