@@ -1,3 +1,9 @@
+/* page */
+
+.pagewidth {
+    max-width: 2000px;
+}
+
 /* nav items */
 
 .size-logo {
