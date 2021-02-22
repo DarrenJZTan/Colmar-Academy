@@ -18,4 +18,5 @@ This was done during my time learning HTML and CSS with the Generation Australia
 -   Generation Australia
 
 <sub><sup>Repo was created on Jan 21 2021</sub></sup>
+
 <sub><sup>Week 6 of learning coding!</sub></sup>
